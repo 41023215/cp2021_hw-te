@@ -22,12 +22,11 @@
 <p style="padding-left: 60px;">Successfully managing an academic portfolio requires continued (持續) collaboration (協同) and use of data. There are many stakeholders involved in the process and emphasizing the importance of collaboration will not only assist portfolio management, but also an institution’s mission (使命) and vision (願景). Institutional and academic leaders can align conversations about strategic activities and information management to strengthen long-range academic planning.<br/><br/>Additionally, as leaders review program-level costs and data as a part of academic portfolio management, they will be able to identify opportunities to reallocate funding to support resource-intensive academic programs. Better access to this data will also increase visibility on learning, progression and graduation outcomes. As the relationships and collaboration between academic leadership and faculty strengthen, decision making (決策), resource allocation (資源配置) and data analysis will improve.</p>
 <p>這是計算機程式課程 2021 Fall 的作業倉儲與網站 template</p>
 <hr/>
-<p>demo 學號與帳號: mdecourse</p>
-<p>網站倉儲: <a href="https://github.com/mdecourse/cp2021_hw">https://github.com/mdecourse/cp2021_hw</a></p>
-<p>網站連結: <a href="https://mde.tw/cp2021_hw">https://mde.tw/cp2021_hw</a></p>
+<p>demo 學號與帳號: 41023215</p>
+<p>網站倉儲: <a href="https://github.com/41023215/cp2021_hw">https://github.com/41023215/cp2021_hw</a></p>
+<p>網站連結: <a href="https://41023215.github.io/cp2021_hw/">https://41023215.github.io/cp2021_hw/</a></p>
 <p>其他與個人或作業相關資料說明或介紹:</p>
-<p>mdecourse 所屬的實驗室: <a href="https://mde.tw">https://mde.tw</a></p>
-<h2>portable_hybrid</h2>
+<p>mdecourse 所屬的實驗室: <a href="https://mde.tw">https://mde.tw</a></p><h2>portable_hybrid</h2>
 <p>W8 配合電腦輔助設計室所建立的 <a href="https://drive.google.com/file/d/1MwUQNWATIgwWoT--HELUHcepNsNi4uTP/view?usp=sharing">portable_hybrid.7z</a> (任何人都可以下載 - 此即 academic portfolio 中的服務) 可攜程式環境系統.</p>
 <p style="padding-left: 30px;">註: portable_hybrid.7z 是儲存在 2021fall At mde 的 GDrive 中.</p>
 <p><a href="https://drive.google.com/file/d/1MwUQNWATIgwWoT--HELUHcepNsNi4uTP/view?usp=sharing">portable_hybrid.7z</a> 下載檔案約 350MB, 解開壓縮檔案後約為 1GB.</p>
@@ -43,632 +42,11 @@
 <p>但是屬於 Web-based 前端的 Brython 程式, 若要與屬於伺服器後端的 <a href="https://en.wikipedia.org/wiki/ANSI_C">ANSI C</a> 程式結合, 還需要透過伺服器端的 CPython 程式出來整合 (例如: <a href="https://github.com/mdecourse/python-tinycc">https://github.com/mdecourse/python-tinycc</a>)</p>
 <h4>利用 portable_hybrid 中的 Tiny C compiler 解題:</h4>
 <p>利用 <a href="https://en.wikipedia.org/wiki/Differential_evolution">Differential Evoluation</a> (差分進化演算法), 以 <a href="https://en.wikipedia.org/wiki/ANSI_C">ANSI C</a> 程式語言編寫適應方程式的最大化或最小化演算:</p>
-<p>下列程式碼位於 portable_hybrid\data\tmp\c_ex\volume_ex1.c, 以 <a href="https://drive.google.com/file/d/1MwUQNWATIgwWoT--HELUHcepNsNi4uTP/view?usp=sharing">portable_hybrid.7z</a> 中的 <a href="https://www.scintilla.org/SciTE.html">SciTE</a> 編輯器開啟後, 使用 Tools -&gt; Go 即可執行運算.</p>
-<p>同樣採 DE 演算法的 Python 程式範例為 portable_hybrid\data\tmp\c_ex\volume_ex1.py, 也是直接以 <a href="https://drive.google.com/file/d/1MwUQNWATIgwWoT--HELUHcepNsNi4uTP/view?usp=sharing">portable_hybrid.7z</a> 中的 <a href="https://www.scintilla.org/SciTE.html">SciTE</a> 編輯器開啟後, 使用 Tools -&gt; Go 即可執行運算.</p>
+<p>下列程式碼位於 portable_hybrid\data\tmp\c_ex\volume_ex1.c (即 <a href="https://gist.githubusercontent.com/mdecourse/b5df54ab3d5f2f079f785541d1178a66/raw/46769eea62debaf0cb849698967413806cc13ac2/volume_in_de_ex1.c">volume_in_de_ex1.c</a>), 以 <a href="https://drive.google.com/file/d/1MwUQNWATIgwWoT--HELUHcepNsNi4uTP/view?usp=sharing">portable_hybrid.7z</a> 中的 <a href="https://www.scintilla.org/SciTE.html">SciTE</a> 編輯器開啟後, 使用 Tools -&gt; Go 即可執行運算.</p>
+<p>同樣採 DE 演算法的 Python 程式範例為 portable_hybrid\data\tmp\c_ex\volume_ex1.py (即 <a href="https://gist.githubusercontent.com/mdecourse/b5df54ab3d5f2f079f785541d1178a66/raw/ccdea7b056702bcf06ed24c7407a43e0a1aacdbc/volume_in_de_ex1.py">volume_in_de_ex1.py</a>), 也可以直接以 <a href="https://drive.google.com/file/d/1MwUQNWATIgwWoT--HELUHcepNsNi4uTP/view?usp=sharing">portable_hybrid.7z</a> 中的 <a href="https://www.scintilla.org/SciTE.html">SciTE</a> 編輯器開啟後, 使用 Tools -&gt; Go 執行運算.</p>
 <p><span style="background-color: #ffff99;">此一採<a href="https://www.analyzemath.com/calculus/Problems/maximum_volume_problem.html">固定表面積的紙盒體積最大化</a>運算範例 volume_ex1.py 程式碼, 若改名為 <a href="https://gist.githubusercontent.com/mdecourse/b5df54ab3d5f2f079f785541d1178a66/raw/ccdea7b056702bcf06ed24c7407a43e0a1aacdbc/volume_in_de_ex1.py" style="background-color: #ffff99;">volume_in_de_ex1.py</a> 後, 可以直接利用 <a href="https://mde.tw/cp2021_hw/content/run.html" style="background-color: #ffff99;">https://mde.tw/cp2021_hw/content/run.html</a> 直接在網際介面中<a href="https://mde.tw/cp2021_hw/content/run.html?src=https://gist.githubusercontent.com/mdecourse/b5df54ab3d5f2f079f785541d1178a66/raw/ccdea7b056702bcf06ed24c7407a43e0a1aacdbc/volume_in_de_ex1.py" style="background-color: #ffff99;">執行</a>.</span> 此 volume_in_de_ex1.py 的原始作者為<a href="https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=jL6MqG/record">李孟恭</a> (<a href="https://github.com/kmollee/algorithm/blob/master/de.py">https://github.com/kmollee/algorithm/blob/master/de.py</a>)</p>
-<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">// 必須在演算過程中, 設法限制各變數的上下限!
-#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;
-#include &lt;math.h&gt;
-#include &lt;memory.h&gt;
-#include &lt;time.h&gt;
-   
-// 最大族群數, NP
-#define MAXPOP  5000
-// 最大向量維度, D
-#define MAXDIM  35
-// MAXIMAPROBLEM =1 最大化 0 最小化
-#define MAXIMAPROBLEM 1
-// 最大化時 PENALITY 必須為負值, 否則為正值
-#define PENALITY -1000
-/*
-#define MAXIMAPROBLEM 0
-#define PENALITY 1000
-*/
-   
-/*------Constants for rnd_uni()--------------------------------------------*/
-   
-#define IM1 2147483563
-#define IM2 2147483399
-#define AM (1.0/IM1)
-#define IMM1 (IM1-1)
-#define IA1 40014
-#define IA2 40692
-#define IQ1 53668
-#define IQ2 52774
-#define IR1 12211
-#define IR2 3791
-#define NTAB 32
-#define NDIV (1+IMM1/NTAB)
-#define EPS 1.2e-7
-#define RNMX (1.0-EPS)
-   
-/*------------------------Globals---------------------------------------*/
-   
-long  rnd_uni_init;                 /* serves as a seed for rnd_uni()   */
-double c[MAXPOP][MAXDIM], d[MAXPOP][MAXDIM];
-double (*pold)[MAXPOP][MAXDIM], (*pnew)[MAXPOP][MAXDIM], (*pswap)[MAXPOP][MAXDIM];
-   
-/*---------Function declarations----------------------------------------*/
-   
-void  assignd(int D, double a[], double b[]);
-double rnd_uni(long *idum);    /* uniform pseudo random number generator */
-double extern evaluate(int D, double tmp[], long *nfeval); /* obj. funct. */
-   
-/*---------Function definitions-----------------------------------------*/
-// 指定向量 b 為 a
-void  assignd(int D, double a[], double b[])
-{
-   int j;
-   for (j=0; j&lt;D; j++)
-   {
-      a[j] = b[j];
-   }
-}
-   
-// 產生 0 ~ 1 間的亂數
-double rnd_uni(long *idum)
-{
-  long j;
-  long k;
-  static long idum2=123456789;
-  static long iy=0;
-  static long iv[NTAB];
-  double temp;
-   
-  if (*idum &lt;= 0)
-  {
-    if (-(*idum) &lt; 1) *idum=1;
-    else *idum = -(*idum);
-    idum2=(*idum);
-    for (j=NTAB+7;j&gt;=0;j--)
-    {
-      k=(*idum)/IQ1;
-      *idum=IA1*(*idum-k*IQ1)-k*IR1;
-      if (*idum &lt; 0) *idum += IM1;
-      if (j &lt; NTAB) iv[j] = *idum;
-    }
-    iy=iv[0];
-  }
-  k=(*idum)/IQ1;
-  *idum=IA1*(*idum-k*IQ1)-k*IR1;
-  if (*idum &lt; 0) *idum += IM1;
-  k=idum2/IQ2;
-  idum2=IA2*(idum2-k*IQ2)-k*IR2;
-  if (idum2 &lt; 0) idum2 += IM2;
-  j=iy/NDIV;
-  iy=iv[j]-idum2;
-  iv[j] = *idum;
-  if (iy &lt; 1) iy += IMM1;
-  if ((temp=AM*iy) &gt; RNMX) return RNMX;
-  else return temp;
-   
-}/*------End of rnd_uni()--------------------------*/
-   
-// 將上下限轉為全域變數
-double inibound_h;      /* upper parameter bound              */
-double inibound_l;      /* lower parameter bound              */
-// 與機構合成相關的全域變數
-// 宣告一個座標結構
-struct Coord {
-    double x;
-    double y;
-  // 這裡保留 double z;
-};
-   
-main(int argc, char *argv[])
-{
-   char  chr;             /* y/n choice variable                */
-   char  *strat[] =       /* strategy-indicator                 */
-   {
-            "",
-            "DE/best/1/exp",
-            "DE/rand/1/exp",
-            "DE/rand-to-best/1/exp",
-            "DE/best/2/exp",
-            "DE/rand/2/exp",
-            "DE/best/1/bin",
-            "DE/rand/1/bin",
-            "DE/rand-to-best/1/bin",
-            "DE/best/2/bin",
-            "DE/rand/2/bin"
-   };
-   
-   int   i, j, L, n;      /* counting variables                 */
-   int   r1, r2, r3, r4;  /* placeholders for random indexes    */
-   int   r5;              /* placeholders for random indexes    */
-   int   D;               /* Dimension of parameter vector      */
-   int   NP;              /* number of population members       */
-   int   imin;            /* index to member with lowest energy */
-   int   refresh;         /* refresh rate of screen output      */
-   int   strategy;        /* choice parameter for screen output */
-   int   gen, genmax, seed;   
-   
-   long  nfeval;          /* number of function evaluations     */
-   
-   double trial_cost;      /* buffer variable                    */
-   // 將上下限轉為全域變數, 可能要根據各變數加以設定
-   //double inibound_h;      /* upper parameter bound              */
-   //double inibound_l;      /* lower parameter bound              */
-   double tmp[MAXDIM], best[MAXDIM], bestit[MAXDIM]; /* members  */
-   double cost[MAXPOP];    /* obj. funct. values                 */
-   double cvar;            /* computes the cost variance         */
-   double cmean;           /* mean cost                          */
-   double F,CR;            /* control variables of DE            */
-   double cmin;            /* help variables                     */
-   
-   FILE  *fpin_ptr;
-   FILE  *fpout_ptr;
-   
-// 計算執行過程所需時間起點, 需要導入 time.h
-  clock_t start = clock();
-   
-/*------Initializations----------------------------*/
-   
-// 將結果寫入 out.dat
- fpout_ptr = fopen("out.dat","w");          /* open output file for reading,    */
-// 目前已經採用 strategy 3 可以得到最佳結果
-  strategy = 3;
-  genmax = 2000;
-  refresh = 100;
-  // 配合機構尺寸合成, 每一個體有 9 個機構尺寸值與 5 個通過點角度值
-  D = 2;
-  NP = 200;
-  inibound_h = 50.;
-  inibound_l = 0.;
-/*得到最佳解
-  F = 0.85;
-CR 必須介於 0 to 1. 之間
-  CR = 1.;
-*/
-  F = 0.85;
-  CR = 1.;
-  seed = 3;
-   
- //fclose(fpin_ptr);
-   
-/*-----Checking input variables for proper range----------------------------*/
-   
-  if (D &gt; MAXDIM)
-  {
-     printf("\nError! D=%d &gt; MAXDIM=%d\n",D,MAXDIM);
-     exit(1);
-  }
-  if (D &lt;= 0)
-  {
-     printf("\nError! D=%d, should be &gt; 0\n",D);
-     exit(1);
-  }
-  if (NP &gt; MAXPOP)
-  {
-     printf("\nError! NP=%d &gt; MAXPOP=%d\n",NP,MAXPOP);
-     exit(1);
-  }
-  if (NP &lt;= 0)
-  {
-     printf("\nError! NP=%d, should be &gt; 0\n",NP);
-     exit(1);
-  }
-  if ((CR &lt; 0) || (CR &gt; 1.0))
-  {
-     printf("\nError! CR=%f, should be ex [0,1]\n",CR);
-     exit(1);
-  }
-  if (seed &lt;= 0)
-  {
-     printf("\nError! seed=%d, should be &gt; 0\n",seed);
-     exit(1);
-  }
-  if (refresh &lt;= 0)
-  {
-     printf("\nError! refresh=%d, should be &gt; 0\n",refresh);
-     exit(1);
-  }
-  if (genmax &lt;= 0)
-  {
-     printf("\nError! genmax=%d, should be &gt; 0\n",genmax);
-     exit(1);
-  }
-  if ((strategy &lt; 0) || (strategy &gt; 10))
-  {
-     printf("\nError! strategy=%d, should be ex {1,2,3,4,5,6,7,8,9,10}\n",strategy);
-     exit(1);
-  }
-  if (inibound_h &lt; inibound_l)
-  {
-     printf("\nError! inibound_h=%f &lt; inibound_l=%f\n",inibound_h, inibound_l);
-     exit(1);
-  }
-   
-/*-----Initialize random number generator-----------------------------*/
-   
- rnd_uni_init = -(long)seed;  /* initialization of rnd_uni() */
- nfeval       =  0;  /* reset number of function evaluations */
-   
-/*------Initialization------------------------------------------------*/
-/*------Right now this part is kept fairly simple and just generates--*/
-/*------random numbers in the range [-initfac, +initfac]. You might---*/
-/*------want to extend the init part such that you can initialize-----*/
-/*------each parameter separately.------------------------------------*/
-   
-   for (i=0; i&lt;NP; i++)
-   {
-      for (j=0; j&lt;D; j++) /* spread initial population members */
-      {
-        c[i][j] = inibound_l + rnd_uni(&amp;rnd_uni_init)*(inibound_h - inibound_l);
-      }
-      cost[i] = evaluate(D,c[i],&amp;nfeval); /* obj. funct. value */
-   }
-   cmin = cost[0];
-   imin = 0;
-   for (i=1; i&lt;NP; i++)
-   {
-     if(MAXIMAPROBLEM == 1)
-     {
-       // 改為最大化
-        if (cost[i]&gt;cmin)
-        {
-          cmin = cost[i];
-          imin = i;
-        }
-      }
-      else
-      {
-        // 最小化問題
-        if (cost[i]&lt;cmin)
-        {
-          cmin = cost[i];
-          imin = i;
-        }
-      }
-   }
-   
-   assignd(D,best,c[imin]);            /* save best member ever          */
-   assignd(D,bestit,c[imin]);          /* save best member of generation */
-   
-   pold = &amp;c; /* old population (generation G)   */
-   pnew = &amp;d; /* new population (generation G+1) */
-   
-/*=======================================================================*/
-/*=========Iteration loop================================================*/
-/*=======================================================================*/
-   
-   gen = 0;                          /* generation counter reset */
-   while ((gen &lt; genmax) /*&amp;&amp; (kbhit() == 0)*/) /* remove comments if conio.h */
-   {                                            /* is accepted by compiler    */
-      gen++;
-      imin = 0;
-   
-      for (i=0; i&lt;NP; i++)         /* Start of loop through ensemble  */
-      {
-     do                        /* Pick a random population member */
-     {                         /* Endless loop for NP &lt; 2 !!!     */
-       r1 = (int)(rnd_uni(&amp;rnd_uni_init)*NP);
-     }while(r1==i);            
-   
-     do                        /* Pick a random population member */
-     {                         /* Endless loop for NP &lt; 3 !!!     */
-       r2 = (int)(rnd_uni(&amp;rnd_uni_init)*NP);
-     }while((r2==i) || (r2==r1));
-   
-     do                        /* Pick a random population member */
-     {                         /* Endless loop for NP &lt; 4 !!!     */
-       r3 = (int)(rnd_uni(&amp;rnd_uni_init)*NP);
-     }while((r3==i) || (r3==r1) || (r3==r2));
-   
-     do                        /* Pick a random population member */
-     {                         /* Endless loop for NP &lt; 5 !!!     */
-       r4 = (int)(rnd_uni(&amp;rnd_uni_init)*NP);
-     }while((r4==i) || (r4==r1) || (r4==r2) || (r4==r3));
-   
-     do                        /* Pick a random population member */
-     {                         /* Endless loop for NP &lt; 6 !!!     */
-       r5 = (int)(rnd_uni(&amp;rnd_uni_init)*NP);
-     }while((r5==i) || (r5==r1) || (r5==r2) || (r5==r3) || (r5==r4));
-   
-/*=======EXPONENTIAL CROSSOVER============================================================*/
-   
-/*-------DE/best/1/exp--------------------------------------------------------------------*/
-/*-------Our oldest strategy but still not bad. However, we have found several------------*/
-/*-------optimization problems where misconvergence occurs.-------------------------------*/
-     if (strategy == 1) /* strategy DE0 (not in our paper) */
-     {
-       assignd(D,tmp,(*pold)[i]);
-       n = (int)(rnd_uni(&amp;rnd_uni_init)*D);
-       L = 0;
-       do
-       {                       
-         tmp[n] = bestit[n] + F*((*pold)[r2][n]-(*pold)[r3][n]);
-         n = (n+1)%D;
-         L++;
-       }while((rnd_uni(&amp;rnd_uni_init) &lt; CR) &amp;&amp; (L &lt; D));
-     }
-/*-------DE/rand/1/exp-------------------------------------------------------------------*/
-/*-------This is one of my favourite strategies. It works especially well when the-------*/
-/*-------"bestit[]"-schemes experience misconvergence. Try e.g. F=0.7 and CR=0.5---------*/
-/*-------as a first guess.---------------------------------------------------------------*/
-     else if (strategy == 2) /* strategy DE1 in the techreport */
-     {
-       assignd(D,tmp,(*pold)[i]);
-       n = (int)(rnd_uni(&amp;rnd_uni_init)*D);
-       L = 0;
-       do
-       {                       
-         tmp[n] = (*pold)[r1][n] + F*((*pold)[r2][n]-(*pold)[r3][n]);
-         n = (n+1)%D;
-         L++;
-       }while((rnd_uni(&amp;rnd_uni_init) &lt; CR) &amp;&amp; (L &lt; D));
-     }
-/*-------DE/rand-to-best/1/exp-----------------------------------------------------------*/
-/*-------This strategy seems to be one of the best strategies. Try F=0.85 and CR=1.------*/
-/*-------If you get misconvergence try to increase NP. If this doesn't help you----------*/
-/*-------should play around with all three control variables.----------------------------*/
-     else if (strategy == 3) /* similiar to DE2 but generally better */
-     { 
-       assignd(D,tmp,(*pold)[i]);
-       n = (int)(rnd_uni(&amp;rnd_uni_init)*D); 
-       L = 0;
-       do
-       {                       
-         tmp[n] = tmp[n] + F*(bestit[n] - tmp[n]) + F*((*pold)[r1][n]-(*pold)[r2][n]);
-         n = (n+1)%D;
-         L++;
-       }while((rnd_uni(&amp;rnd_uni_init) &lt; CR) &amp;&amp; (L &lt; D));
-     }
-/*-------DE/best/2/exp is another powerful strategy worth trying--------------------------*/
-     else if (strategy == 4)
-     { 
-       assignd(D,tmp,(*pold)[i]);
-       n = (int)(rnd_uni(&amp;rnd_uni_init)*D); 
-       L = 0;
-       do
-       {                           
-         tmp[n] = bestit[n] + 
-              ((*pold)[r1][n]+(*pold)[r2][n]-(*pold)[r3][n]-(*pold)[r4][n])*F;
-         n = (n+1)%D;
-         L++;
-       }while((rnd_uni(&amp;rnd_uni_init) &lt; CR) &amp;&amp; (L &lt; D));
-     }
-/*-------DE/rand/2/exp seems to be a robust optimizer for many functions-------------------*/
-     else if (strategy == 5)
-     { 
-       assignd(D,tmp,(*pold)[i]);
-       n = (int)(rnd_uni(&amp;rnd_uni_init)*D); 
-       L = 0;
-       do
-       {                           
-         tmp[n] = (*pold)[r5][n] + 
-              ((*pold)[r1][n]+(*pold)[r2][n]-(*pold)[r3][n]-(*pold)[r4][n])*F;
-         n = (n+1)%D;
-         L++;
-       }while((rnd_uni(&amp;rnd_uni_init) &lt; CR) &amp;&amp; (L &lt; D));
-     }
-   
-/*=======Essentially same strategies but BINOMIAL CROSSOVER===============================*/
-   
-/*-------DE/best/1/bin--------------------------------------------------------------------*/
-     else if (strategy == 6) 
-     {
-       assignd(D,tmp,(*pold)[i]);
-       n = (int)(rnd_uni(&amp;rnd_uni_init)*D); 
-           for (L=0; L&lt;D; L++) /* perform D binomial trials */
-           {
-         if ((rnd_uni(&amp;rnd_uni_init) &lt; CR) || L == (D-1)) /* change at least one parameter */
-         {                       
-           tmp[n] = bestit[n] + F*((*pold)[r2][n]-(*pold)[r3][n]);
-         }
-         n = (n+1)%D;
-           }
-     }
-/*-------DE/rand/1/bin-------------------------------------------------------------------*/
-     else if (strategy == 7) 
-     {
-       assignd(D,tmp,(*pold)[i]);
-       n = (int)(rnd_uni(&amp;rnd_uni_init)*D); 
-           for (L=0; L&lt;D; L++) /* perform D binomial trials */
-           {
-         if ((rnd_uni(&amp;rnd_uni_init) &lt; CR) || L == (D-1)) /* change at least one parameter */
-         {                       
-           tmp[n] = (*pold)[r1][n] + F*((*pold)[r2][n]-(*pold)[r3][n]);
-         }
-         n = (n+1)%D;
-           }
-     }
-/*-------DE/rand-to-best/1/bin-----------------------------------------------------------*/
-     else if (strategy == 8) 
-     { 
-       assignd(D,tmp,(*pold)[i]);
-       n = (int)(rnd_uni(&amp;rnd_uni_init)*D); 
-           for (L=0; L&lt;D; L++) /* perform D binomial trials */
-           {
-         if ((rnd_uni(&amp;rnd_uni_init) &lt; CR) || L == (D-1)) /* change at least one parameter */
-         {                       
-           tmp[n] = tmp[n] + F*(bestit[n] - tmp[n]) + F*((*pold)[r1][n]-(*pold)[r2][n]);
-         }
-         n = (n+1)%D;
-           }
-     }
-/*-------DE/best/2/bin--------------------------------------------------------------------*/
-     else if (strategy == 9)
-     { 
-       assignd(D,tmp,(*pold)[i]);
-       n = (int)(rnd_uni(&amp;rnd_uni_init)*D); 
-           for (L=0; L&lt;D; L++) /* perform D binomial trials */
-           {
-         if ((rnd_uni(&amp;rnd_uni_init) &lt; CR) || L == (D-1)) /* change at least one parameter */
-         {                       
-           tmp[n] = bestit[n] + 
-              ((*pold)[r1][n]+(*pold)[r2][n]-(*pold)[r3][n]-(*pold)[r4][n])*F;
-         }
-         n = (n+1)%D;
-           }
-     }
-/*-------DE/rand/2/bin--------------------------------------------------------------------*/
-     else
-     { 
-       assignd(D,tmp,(*pold)[i]);
-       n = (int)(rnd_uni(&amp;rnd_uni_init)*D); 
-           for (L=0; L&lt;D; L++) /* perform D binomial trials */
-           {
-         if ((rnd_uni(&amp;rnd_uni_init) &lt; CR) || L == (D-1)) /* change at least one parameter */
-         {                       
-           tmp[n] = (*pold)[r5][n] + 
-              ((*pold)[r1][n]+(*pold)[r2][n]-(*pold)[r3][n]-(*pold)[r4][n])*F;
-         }
-         n = (n+1)%D;
-           }
-     }
-   
-   
-/*=======Trial mutation now in tmp[]. Test how good this choice really was.==================*/
-   
-     trial_cost = evaluate(D,tmp,&amp;nfeval);  /* Evaluate new vector in tmp[] */
-   if(MAXIMAPROBLEM == 1)
-   {
-    // 改為最大化
-       if (trial_cost &gt;= cost[i])   /* improved objective function value ? */
-       {                                  
-          cost[i]=trial_cost;         
-          assignd(D,(*pnew)[i],tmp);
-          if (trial_cost&gt;cmin)          /* Was this a new minimum? */
-          {                               /* if so...*/
-             cmin=trial_cost;           /* reset cmin to new low...*/
-             imin=i;
-             assignd(D,best,tmp);           
-          }                           
-       }                            
-       else
-       {
-          assignd(D,(*pnew)[i],(*pold)[i]); /* replace target with old value */
-       }
-    }
-    else
-    {
-          // 最小化問題
-       if (trial_cost &lt;= cost[i])   /* improved objective function value ? */
-       {                                  
-          cost[i]=trial_cost;         
-          assignd(D,(*pnew)[i],tmp);
-          if (trial_cost&lt;cmin)          /* Was this a new minimum? */
-          {                               /* if so...*/
-             cmin=trial_cost;           /* reset cmin to new low...*/
-             imin=i;
-             assignd(D,best,tmp);           
-          }                           
-       }                            
-       else
-       {
-          assignd(D,(*pnew)[i],(*pold)[i]); /* replace target with old value */
-       }
-    }
-   
-      }   /* End mutation loop through pop. */
-   
-      assignd(D,bestit,best);  /* Save best population member of current iteration */
-   
-      /* swap population arrays. New generation becomes old one */
-   
-      pswap = pold;
-      pold  = pnew;
-      pnew  = pswap;
-   
-/*----Compute the energy variance (just for monitoring purposes)-----------*/
-   
-      cmean = 0.;          /* compute the mean value first */
-      for (j=0; j&lt;NP; j++)
-      {
-         cmean += cost[j];
-      }
-      cmean = cmean/NP;
-   
-      cvar = 0.;           /* now the variance              */
-      for (j=0; j&lt;NP; j++)
-      {
-         cvar += (cost[j] - cmean)*(cost[j] - cmean);
-      }
-      cvar = cvar/(NP-1);
-   
-   
-/*----Output part----------------------------------------------------------*/
-   
-      if (gen%refresh==1)   /* display after every refresh generations */
-      { /* ABORT works only if conio.h is accepted by your compiler */
-    printf("\n\n                         PRESS ANY KEY TO ABORT"); 
-    printf("\n\n\n Best-so-far cost funct. value=%-15.10g\n",cmin);
-   
-    for (j=0;j&lt;D;j++)
-    {
-      printf("\n best[%d]=%-15.10g",j,best[j]);
-    }
-    printf("\n\n Generation=%d  NFEs=%ld   Strategy: %s    ",gen,nfeval,strat[strategy]);
-    printf("\n NP=%d    F=%-4.2g    CR=%-4.2g   cost-variance=%-10.5g\n",
-               NP,F,CR,cvar);
-      }
-   
-      fprintf(fpout_ptr,"%ld   %-15.10g\n",nfeval,cmin);
-   }
-/*=======================================================================*/
-/*=========End of iteration loop=========================================*/
-/*=======================================================================*/
-   
-/*-------Final output in file-------------------------------------------*/
-   
-   
-   fprintf(fpout_ptr,"\n\n\n Best-so-far obj. funct. value = %-15.10g\n",cmin);
-   
-   for (j=0;j&lt;D;j++)
-   {
-     fprintf(fpout_ptr,"\n best[%d]=%-15.10g",j,best[j]);
-   }
-   fprintf(fpout_ptr,"\n\n Generation=%d  NFEs=%ld   Strategy: %s    ",gen,nfeval,strat[strategy]);
-   fprintf(fpout_ptr,"\n NP=%d    F=%-4.2g    CR=%-4.2g    cost-variance=%-10.5g\n",
-           NP,F,CR,cvar); 
-   
-  fclose(fpout_ptr);
-   
-  /* Code you want timed here */
-  printf("Time elapsed: %f\n", ((double)clock() - start) / CLOCKS_PER_SEC);
-   return(0);
-}
-   
-/*-----------End of main()------------------------------------------*/
-   
-// 適應函式 fittness function (cost function)
-double evaluate(int D, double tmp[], long *nfeval)
-{
-   double result=0, surface = 192.0, z, volume, penality;
-   (*nfeval)++;
-   z = (surface-tmp[0]*tmp[1])/(2.0*(tmp[0]+tmp[1]));
-   volume = tmp[0]*tmp[1]*z;
-   
-  if(volume &lt;= 0){
-    return PENALITY;
-  }
-// 只限制長度與寬度必須大於 0
-  if(tmp[0] &lt;= inibound_l){
-    return PENALITY;
-  }
-   
-  if(tmp[1] &lt;= inibound_l){
-    return PENALITY;
-  }
-/*
-  if((tmp[0] &lt;= inibound_l)|| (tmp[0] &gt;inibound_h)){
-    return PENALITY;
-  }
-   
-  if((tmp[1] &lt;= inibound_l) || (tmp[1] &gt;inibound_h)){
-    return PENALITY;
-  }
-  */
-  // volume must &gt;0 and max volume
-  // 目前為最小化問題
-   //return 1+1/(volume*volume);
-  return volume;
-}</pre>
 <p>至於透過物件導向 (Object-oriented) 將 ANSI-C 與 CPython 結合的教材, 可以參考<a href="https://sites.google.com/site/misoo777/">高煥堂</a>寫的<a href="https://www.books.com.tw/products/0010813851">物件導向 ANSI-C 與 Python 的結合紙本書</a> (lw-oopc: <a href="https://sourceforge.net/projects/lwoopc/">https://sourceforge.net/projects/lwoopc/</a> 即 light-weight object-oriented programming in C, 也就是輕量物件導向 C 程式語言).</p>
-<p>從 <a href="https://github.com/Akagi201/lw_oopc/blob/master/doc/%E8%BD%BB%E9%87%8F%E7%BA%A7%E7%9A%84%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1C%E8%AF%AD%E8%A8%80%E7%BC%96%E7%A8%8B%E6%A1%86%E6%9E%B6%E4%BB%8B%E7%BB%8D.md">lw-oopc 的簡介</a> 以及<a href="https://github.com/Akagi201/lw_oopc">升級版 lw-oopc 原始碼</a>中, 則可以進一步對 ANSI-C 在嵌入式 (embedded) 系統上的應用有所了解.</p>
-<h3>Pyslvs-UI</h3>
+<p>從 <a href="https://github.com/Akagi201/lw_oopc/blob/master/doc/%E8%BD%BB%E9%87%8F%E7%BA%A7%E7%9A%84%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1C%E8%AF%AD%E8%A8%80%E7%BC%96%E7%A8%8B%E6%A1%86%E6%9E%B6%E4%BB%8B%E7%BB%8D.md">lw-oopc 的簡介</a> 以及<a href="https://github.com/Akagi201/lw_oopc">升級版 lw-oopc 原始碼</a>中, 則可以進一步對 ANSI-C 在嵌入式 (embedded) 系統上的應用有所了解.</p><h3>Pyslvs-UI</h3>
 <h4>簡介:</h4>
 <p><a href="https://github.com/KmolYuan/Pyslvs-PyQt5">Pyslvs-UI</a> 是一套利用 Python 3 與 PyQt5 建立的平面機構模擬與合成系統. 機構模擬與合成的主要核心包括 <a href="https://github.com/mdecourse/python-solvespace">Python-Solvespace</a> 幾何約束求解程式庫、<a href="https://github.com/mdecourse/pyslvs/blob/master/pyslvs/tinycadlib.pyx">tinycadlib</a> 三角幾何函式程式庫、<a href="https://github.com/mdecourse/metaheuristics">Metaheruistics</a> 演算程式庫、<a href="https://github.com/mdecourse/pyslvs/blob/master/pyslvs/bfgs.pyx">bgfs</a> 幾何約束求解程式庫、<a href="https://github.com/mdecourse/pyslvs/blob/master/pyslvs/topo_config.pyx">topologic</a> 類型合成程式庫、<a href="https://github.com/mdecourse/pyslvs/blob/80be5830a1a3ccfe3b9540f0eaad408267d26373/pyslvs/number.pyx">number</a> 數目合成程式庫等.</p>
 <p>其中, <a href="https://github.com/mdecourse/metaheuristics">Metaheruistics</a> 演算程式庫包含 Real-coded Genetic Algorithm (<a href="https://github.com/mdecourse/metaheuristics/blob/master/rga.pyx">RGA</a>)、Differential Evolution (<a href="https://github.com/mdecourse/metaheuristics/blob/master/de.pyx">DE</a>) 與 Firefly Algorithm (<a href="https://github.com/mdecourse/metaheuristics/blob/master/firefly.pyx">Firefly</a>) 等三種, 用於平面機構尺寸合成演算.</p>
@@ -1639,3 +1017,197 @@ server {
 <p style="padding-left: 30px;"><a href="https://github.com/leereilly/games">https://github.com/leereilly/games</a></p>
 <p style="padding-left: 30px;"><a href="https://bmsleight.github.io/brython-blocks/">https://bmsleight.github.io/brython-blocks/</a></p>
 <p style="padding-left: 60px;"><a href="https://github.com/mdecourse/brython-blocks">https://github.com/mdecourse/brython-blocks</a></p>
+<p style="padding-left: 60px;"></p>
+<h1 style="padding-left: 60px;">exam</h1>
+<p></p>
+<!-- 導入 gearUtils-0.9.js Cango 齒輪繪圖程式庫 -->
+<script src="https://mde.tw/cp2021/cmsimde/static/Cango-24v03-min.js"></script>
+<script src="https://mde.tw/cp2021/cmsimde/static/gearUtils-09.js"></script>
+<script src="https://mde.tw/cp2021/cmsimde/static/SVGpathUtils-6v03-min.js"></script>
+<script src="https://mde.tw/cp2021/cmsimde/static/sylvester.js"></script>
+<script src="https://mde.tw/cp2021/cmsimde/static/PrairieDraw.js"></script>
+<h2>run</h2>
+<!-- 導入 brython 程式庫 -->
+<script src="/static/brython.js"></script>
+<script src="/static/brython_stdlib.js"></script>
+<!-- 啟動 Brython -->
+<script>
+window.onload=function(){
+brython({debug:1, pythonpath:['/static/','./../downloads/py/']});
+}
+</script>
+<p><!-- 導入 FileSaver 與 filereader --></p>
+<p>
+<script src="/static/ace/FileSaver.min.js" type="text/javascript"></script>
+<script src="/static/ace/filereader.js" type="text/javascript"></script>
+</p>
+<p><!-- 導入 ace --></p>
+<p>
+<script src="/static/ace/ace.js" type="text/javascript"></script>
+<script src="/static/ace/ext-language_tools.js" type="text/javascript"></script>
+<script src="/static/ace/mode-python3.js" type="text/javascript"></script>
+<script src="/static/ace/snippets/python.js" type="text/javascript"></script>
+</p>
+<p><!-- 請注意, 這裡使用 Javascript 將 localStorage["# 第 1 排隨機列出的序號為 3.
+import random
+
+n = 6
+for i in range(1,n+1):
+    num= random.randint(1,9)
+    print("第 " + str(i) + "排隨機列出的序號為 " + str(num))"] 中存在近端瀏覽器的程式碼, 由使用者決定存檔名稱--></p>
+<p>
+<script type="text/javascript">
+function doSave(storage_id, filename){
+    var blob = new Blob([localStorage[storage_id]], {type: "text/plain;charset=utf-8"});
+    filename = document.getElementById(filename).value
+    saveAs(blob, filename+".py");
+}
+</script>
+</p>
+<p><!-- 印出版次與關鍵字程式 --></p>
+<p>
+<script type="text/python3">
+from browser import document as doc
+import ace
+# 清除畫布
+def clear_bd(ev):
+    bd = doc["brython_div"]
+    bd.clear()
+# Brython 3.3.4 內建的 container 名稱為  'container' 且 turtle 輸出為 svg 必須使用 div 訂定 id
+Ace = ace.Editor(editor_id="kw_editor", console_id="kw_console", container_id="kw__container", storage_id="kw_py_src" )
+# 從 gist 取出程式碼後, 放入 editor 作為 default 程式
+def run():
+    # 利用 get 取下 src 變數值
+    try:
+        url = doc.query["src"]
+    except:
+        url = "https://gist.githubusercontent.com/mdecourse/e896a4705a95ac8cc4147b355b0e87ef/raw/8954b8280c524c5781dc3c0b3565bc489d3aa3a3/cango_gear1.py"
+    prog = open(url).read()
+
+    # 將程式載入編輯區
+    Ace.editor.setValue(prog)
+    Ace.editor.scrollToRow(0)
+    Ace.editor.gotoLine(0)
+    # 直接執行程式
+    #ns = {'__name__':'__main__'}
+    #exec(prog, ns)
+    # 按下 run 按鈕
+    Ace.run()
+
+# 執行程式, 顯示輸出結果與清除輸出結果及對應按鈕綁定
+doc['kw_run'].bind('click', Ace.run)
+doc['kw_show_console'].bind('click', Ace.show_console)
+doc['kw_clear_console'].bind('click', Ace.clear_console)
+doc['clear_bd'].bind('click', clear_bd)
+# 呼叫函式執行
+run()
+</script>
+</p>
+<p><!-- 用來顯示程式碼的 editor 區域 --></p>
+<div id="kw_editor" style="width: 600px; height: 300px;"></div>
+<p><!-- 以下的表單與按鈕與前面的 Javascript doSave 函式以及 FileSaver.min.js 互相配合 --></p>
+<!-- 存擋表單開始 --><form><label>Filename: <input id="kw_filename" placeholder="input file name" type="text"/>.py</label> <input onclick="doSave('kw_py_src', 'kw_filename');" type="submit" value="Save"/></form><!-- 存擋表單結束 -->
+<p></p>
+<!-- 執行與清除按鈕開始 -->
+<p><button id="kw_run">Run</button> <button id="kw_show_console">Output</button> <button id="kw_clear_console">清除輸出區</button><button id="clear_bd">清除繪圖區</button><button onclick="window.location.reload()">Reload</button></p>
+<!-- 執行與清除按鈕結束 -->
+<p></p>
+<!-- 程式執行 ouput 區 -->
+<div style="width: 100%; height: 100%;"><textarea autocomplete="off" id="kw_console"></textarea></div>
+<!-- Brython 程式執行的結果, 都以 brython_div 作為切入位置 -->
+<div id="brython_div"></div>
+<!-- 導入 gearUtils-0.9.js Cango 齒輪繪圖程式庫 -->
+<script src="https://mde.tw/cp2021/cmsimde/static/Cango-24v03-min.js"></script>
+<script src="https://mde.tw/cp2021/cmsimde/static/gearUtils-09.js"></script>
+<script src="https://mde.tw/cp2021/cmsimde/static/SVGpathUtils-6v03-min.js"></script>
+<script src="https://mde.tw/cp2021/cmsimde/static/sylvester.js"></script>
+<script src="https://mde.tw/cp2021/cmsimde/static/PrairieDraw.js"></script><h2>run</h2>
+<!-- 導入 brython 程式庫 -->
+<script src="/static/brython.js"></script>
+<script src="/static/brython_stdlib.js"></script>
+<!-- 啟動 Brython -->
+<script>
+window.onload=function(){
+brython({debug:1, pythonpath:['/static/','./../downloads/py/']});
+}
+</script>
+<p><!-- 導入 FileSaver 與 filereader --></p>
+<p>
+<script src="/static/ace/FileSaver.min.js" type="text/javascript"></script>
+<script src="/static/ace/filereader.js" type="text/javascript"></script>
+</p>
+<p><!-- 導入 ace --></p>
+<p>
+<script src="/static/ace/ace.js" type="text/javascript"></script>
+<script src="/static/ace/ext-language_tools.js" type="text/javascript"></script>
+<script src="/static/ace/mode-python3.js" type="text/javascript"></script>
+<script src="/static/ace/snippets/python.js" type="text/javascript"></script>
+</p>
+<p><!-- 請注意, 這裡使用 Javascript 將 localStorage["py_src"] 中存在近端瀏覽器的程式碼, 由使用者決定存檔名稱--></p>
+<p>
+<script type="text/javascript">
+function doSave(storage_id, filename){
+    var blob = new Blob([localStorage[storage_id]], {type: "text/plain;charset=utf-8"});
+    filename = document.getElementById(filename).value
+    saveAs(blob, filename+".py");
+}
+</script>
+</p>
+<p><!-- 印出版次與關鍵字程式 --></p>
+<p>
+<script type="text/python3">
+from browser import document as doc
+import ace
+# 清除畫布
+def clear_bd(ev):
+    bd = doc["brython_div"]
+    bd.clear()
+# Brython 3.3.4 內建的 container 名稱為  'container' 且 turtle 輸出為 svg 必須使用 div 訂定 id
+Ace = ace.Editor(editor_id="kw_editor", console_id="kw_console", container_id="kw__container", storage_id="kw_py_src" )
+# 從 gist 取出程式碼後, 放入 editor 作為 default 程式
+def run():
+    # 利用 get 取下 src 變數值
+    try:
+        url = doc.query["src"]
+    except:
+        url = "https://gist.githubusercontent.com/mdecourse/e896a4705a95ac8cc4147b355b0e87ef/raw/8954b8280c524c5781dc3c0b3565bc489d3aa3a3/cango_gear1.py"
+    prog = open(url).read()
+
+    # 將程式載入編輯區
+    Ace.editor.setValue(prog)
+    Ace.editor.scrollToRow(0)
+    Ace.editor.gotoLine(0)
+    # 直接執行程式
+    #ns = {'__name__':'__main__'}
+    #exec(prog, ns)
+    # 按下 run 按鈕
+    Ace.run()
+
+# 執行程式, 顯示輸出結果與清除輸出結果及對應按鈕綁定
+doc['kw_run'].bind('click', Ace.run)
+doc['kw_show_console'].bind('click', Ace.show_console)
+doc['kw_clear_console'].bind('click', Ace.clear_console)
+doc['clear_bd'].bind('click', clear_bd)
+# 呼叫函式執行
+run()
+</script>
+</p>
+<p><!-- 用來顯示程式碼的 editor 區域 --></p>
+<div id="kw_editor" style="width: 600px; height: 300px;"></div>
+<p><!-- 以下的表單與按鈕與前面的 Javascript doSave 函式以及 FileSaver.min.js 互相配合 --></p>
+<!-- 存擋表單開始 --><form><label>Filename: <input id="kw_filename" placeholder="input file name" type="text"/>.py</label> <input onclick="doSave('kw_py_src', 'kw_filename');" type="submit" value="Save"/></form><!-- 存擋表單結束 -->
+<p></p>
+<!-- 執行與清除按鈕開始 -->
+<p><button id="kw_run">Run</button> <button id="kw_show_console">Output</button> <button id="kw_clear_console">清除輸出區</button><button id="clear_bd">清除繪圖區</button><button onclick="window.location.reload()">Reload</button></p>
+<!-- 執行與清除按鈕結束 -->
+<p></p>
+<!-- 程式執行 ouput 區 -->
+<div style="width: 100%; height: 100%;"><textarea autocomplete="off" id="kw_console"></textarea></div>
+<!-- Brython 程式執行的結果, 都以 brython_div 作為切入位置 -->
+<div id="brython_div"></div>
+<!-- 導入 gearUtils-0.9.js Cango 齒輪繪圖程式庫 -->
+<script src="https://mde.tw/cp2021/cmsimde/static/Cango-24v03-min.js"></script>
+<script src="https://mde.tw/cp2021/cmsimde/static/gearUtils-09.js"></script>
+<script src="https://mde.tw/cp2021/cmsimde/static/SVGpathUtils-6v03-min.js"></script>
+<script src="https://mde.tw/cp2021/cmsimde/static/sylvester.js"></script>
+<script src="https://mde.tw/cp2021/cmsimde/static/PrairieDraw.js"></script>
