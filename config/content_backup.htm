@@ -130,7 +130,13 @@ def run():
     try:
         url = doc.query["src"]
     except:
-        url = "https://gist.githubusercontent.com/mdecourse/e896a4705a95ac8cc4147b355b0e87ef/raw/8954b8280c524c5781dc3c0b3565bc489d3aa3a3/cango_gear1.py"
+        url = "# 第 1 排隨機列出的序號為 3.
+import random
+
+n = 6
+for i in range(1,n+1):
+    num= random.randint(1,9)
+    print("第 " + str(i) + "排隨機列出的序號為 " + str(num))"
     prog = open(url).read()
 
     # 將程式載入編輯區
@@ -172,8 +178,7 @@ run()
 <script src="https://mde.tw/cp2021/cmsimde/static/SVGpathUtils-6v03-min.js"></script>
 <script src="https://mde.tw/cp2021/cmsimde/static/sylvester.js"></script>
 <script src="https://mde.tw/cp2021/cmsimde/static/PrairieDraw.js"></script>
-</p>
-<h2>runsrc</h2>
+</p><h2>runsrc</h2>
 <h4>run 頁面在動態網頁的 html:</h4>
 <p><a href="/downloads/run.txt">run.txt</a></p>
 <p></p>
@@ -305,177 +310,99 @@ instructions_btn.addEventListener("click", show_instructions)
 <p style="padding-left: 30px;">相關開放電子書: <a href="http://intronetworks.cs.luc.edu/current1/html/">http://intronetworks.cs.luc.edu/current1/html/</a></p>
 <p style="padding-left: 60px;">其他格式: <a href="https://open.umn.edu/opentextbooks/textbooks/an-introduction-to-computer-networks">https://open.umn.edu/opentextbooks/textbooks/an-introduction-to-computer-networks</a></p>
 <h1>HW1</h1>
-<p>HW1 - 網際動畫與 touch typing 佔學期成績 20%.</p>
-<p>何謂 Secure Shell?</p>
-<p>HTTPS: <a href="https://en.wikipedia.org/wiki/HTTPS">https://en.wikipedia.org/wiki/HTTPS</a></p>
-<p>Transport Layer Security: <a href="https://en.wikipedia.org/wiki/Transport_Layer_Security">https://en.wikipedia.org/wiki/Transport_Layer_Security</a></p>
-<p>SSH: <a href="https://en.wikipedia.org/wiki/Secure_Shell">https://en.wikipedia.org/wiki/Secure_Shell</a></p>
-<h4>如何利用 SSH 協定將倉儲改版內容推送到 Github:</h4>
-<p style="padding-left: 30px;"><a href="https://mde.tw/cd2021/content/SSH%20%E4%BA%86%E6%B2%92.html">SSH 了沒</a></p>
-<h4>以下為 Github 所提供有關 Token 與 SSH 的說明資料:</h4>
-<p style="padding-left: 30px;">Github Personal Token: <a href="https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/">https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/</a></p>
-<p style="padding-left: 30px;">Github SSH: <a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh">https://docs.github.com/en/authentication/connecting-to-github-with-ssh</a></p>
-<p style="padding-left: 60px;">Using the SSH protocol, you can connect and authenticate to remote servers and services. With SSH keys, you can connect to GitHub without supplying your username and personal access token at each visit.</p>
-<p><a href="https://gnupg.org/">GnuPG</a> (GNU Privacy Guard):</p>
-<p style="padding-left: 30px;">如何利用 <a href="https://www.gpg4win.org/">https://www.gpg4win.org/</a> 保全數位檔案傳送.</p>
-<p style="padding-left: 30px;"><a href="https://gnupg.org/gph/en/manual.pdf">https://gnupg.org/gph/en/manual.pdf</a></p>
-<p style="padding-left: 30px;"><a href="https://gnupg.org/documentation/manuals/gnupg.pdf">https://gnupg.org/documentation/manuals/gnupg.pdf</a></p>
-<p style="padding-left: 30px;"><a href="https://www.gpg4win.org/doc/en/gpg4win-compendium.html">https://www.gpg4win.org/doc/en/gpg4win-compendium.html</a></p>
-<p style="padding-left: 30px;">由於數位檔案很容易被改造, 因此在製作數位檔案內容時, 在 Windows 平台上可以利用 Gpg4win 加密或保全.</p>
-<p style="padding-left: 30px;">GnuPG 加密</p>
-<p style="padding-left: 30px;">GnuPG 保全 - 在網站提供檔案下載前, 利用 Gpg4win 對檔案進行數位簽章</p>
-<p>在執行作業之前, 必須要仔細閱讀作業要求內容, 想像一下作業指定者為何要提出此一作業, 其目的為何, 然後再根據要求逐一安排時間完成.</p>
-<p>作業一的主題為網際動畫與 touch typing, 並要求學員要至 Github 申請帳號, 並將作業內容直接在課程網頁中執行 Brython (Browser Python), 完成後將程式碼放到各學員 Github 帳號下的 Gist 區域, 然後再將作業連結提交至課程網頁倉儲的 Discussion 區.</p>
-<p>另外, 除了要修改 Task1 頁面中動畫的程式外, 還要求使用者從 Cango 頁面, 將程式中的網際按鈕放到頁面, 以便控制程式的執行或中斷.</p>
-<p>假如直翻 Browser Python 就是瀏覽器上的 Python, 除了能夠在瀏覽器上執行的 Python, 還有沒有其他環境上能夠執行的 Python？</p>
-<p>例如: 1994 年剛被開發出來的 Python 是用 C 寫的, 所以稱為 CPython, 可以在各種操作系統平台上執行, 而且累積二十幾年的發展, 已經擁有許多的程式庫, 讓 CPython 可以解決許多工程問題.</p>
-<p>除了 CPython 與 Brython (以 Javascript 編寫) 之外, 還有以 Java 編寫的 <a href="https://www.jython.org/">Jython</a>, 以 .NET 技術編寫的 <a href="https://ironpython.net/">ironPython</a>, 還有以 Rust 編寫的 <a href="https://rustpython.github.io/">RustPython</a> 或是以 Python 編寫的 <a href="https://www.pypy.org/">PyPy</a>, 每一種 Python 都有其特色, 在適合的環境中可用來解決各種不同的問題.</p>
-<hr/>
-<p>當我們看到 <a href="https://mde.tw/cp2021/content/Task1.html">https://mde.tw/cp2021/content/Task1.html</a> 這個頁面中的程式執行時, 應該會好奇, 為何能夠直接在瀏覽器的網頁上, 直接點擊 Run, Python 程式就能執行, 在頁面中畫靜態與動態的圖型.</p>
-<p>這種在網頁上畫圖的依據是採用 HTML5 規格中的 <a href="https://developer.mozilla.org/zh-TW/docs/Web/API/Canvas_API">Canvas API</a>. 原本是設計給 Javascript 在網頁上繪圖, 透過 Canvas API 程式語法, 就可以透過 Brython 在頁面中繪圖.</p>
-<div><hr/></div>
-<div>HW1 - 網際動畫與 touch typing 佔學期成績 20%.</div>
-<p><span style="background-color: #ffff99;">HW1 必須在 2021.10.20 22:00 之前完成</span>.</p>
-<p><a href="https://github.com/mdecourse/cp2021/discussions/8">HW1 具體項目成果回報區</a>將於 2021.09.23 開啟, 於 <span style="background-color: #ff99cc;">2021.10.20 22:00 關閉</span></p>
-<ol>
-<li>請至 <a href="https://github.com">https://github.com</a> 申請 Github 帳號後, 至 <a href="https://mde.tw/cp2021/content/Task1.html">https://mde.tw/cp2021/content/Task1.html</a>  頁面, 將左右碰撞移動的紅色方塊, 改為先移動到水平畫面中心點位置後, 接著上下碰撞移動.</li>
-<li>請將 1. 的程式碼存入個人 Gist 區 (<a href="https://docs.github.com/en/github/writing-on-github/editing-and-sharing-content-with-gists/creating-gists">說明</a>).</li>
-<li>請在 1. 的程式中, 加入與 <a href="https://mde.tw/cp2021/content/Cango.html">Cango 頁面</a> Fourbar 程式碼相同功能的啟動按鈕, 讓使用者可以利用按鈕啟動或中斷紅色方塊上下碰撞移動. 完成後請將程式碼存入個人 Gist 區.</li>
-<li>請在 Gist 檔案編輯區, 利用鍵盤輸入 <a href="https://docs.github.com/en/github/writing-on-github/editing-and-sharing-content-with-gists/creating-gists#about-gists">https://docs.github.com/en/github/writing-on-github/editing-and-sharing-content-with-gists/creating-gists#about-gists</a> 中的這段英文內容, 請利用手機計時, 大概需要多少時間? 請將此段練習打字的內容與所需時間存入 Gist 檔案中.</li>
-<li>請至少練習 key in 這段英文內容三次, 然後看看是否已經了解如何透過電腦鍵盤 touch typing?</li>
-<li>接下來請利用中文輸入 <a href="https://ithelp.ithome.com.tw/articles/10206233">https://ithelp.ithome.com.tw/articles/10206233</a> 的第一段中文說明, 請利用手機計時, 大概需要多少時間?</li>
-</ol>
-<hr/>
-<p><a href="https://mde.tw/cp2021_hw/content/run.html?src=https://gist.githubusercontent.com/mdecourse/3db55f124185def5aac8e5d51579c484/raw/cc346e5ed77c63051ea69c985b191d8bd3afc1fc/red_rect1.py">HW1-1</a>: 將左右碰撞移動的紅色方塊, 改為先移動到水平畫面中心點位置後, 接著上下碰撞移動.</p>
-<p><a href="https://mde.tw/cp2021_hw/content/run.html?src=https://gist.githubusercontent.com/mdecourse/3db55f124185def5aac8e5d51579c484/raw/cc346e5ed77c63051ea69c985b191d8bd3afc1fc/red_rect2_with_start_button.py">HW1-2</a>: 加入與 <a href="https://mde.tw/cp2021/content/Cango.html">Cango 頁面</a> Fourbar 程式碼相同功能的啟動按鈕, 讓使用者可以利用按鈕啟動或中斷紅色方塊上下碰撞移動. 完成後請將程式碼存入個人 Gist 區.</p>
-<h4>程式碼說明:</h4>
-<p>HW1-1.py</p>
-<p><a href="https://brython.info/static_doc/en/browser.html">Brython browser 模組</a></p>
-<p><a href="https://brython.info/static_doc/en/html.html">Brython browser html 模組</a></p>
-<p><a href="https://brython.info/static_doc/en/cookbook/bind_unbind.html">Brython enable/disable event</a></p>
-<p>Python 函式定義與呼叫</p>
-<p>Python 縮排 (indentation)</p>
-<p>字串 (string)</p>
-<p>數列 (list)</p>
-<p>if 判斷式</p>
-<p>在 Python 關鍵字中, None, True 與 False 第一個字母都必須是大寫</p>
-<p><a href="https://www.google.com/search?q=site%3Apython.org+global">在 python.org 網站範圍搜尋 global 關鍵字</a></p>
-<p>有關 Python 的 global: <a href="https://docs.python.org/3/faq/programming.html#what-are-the-rules-for-local-and-global-variables-in-python">https://docs.python.org/3/faq/programming.html#what-are-the-rules-for-local-and-global-variables-in-python</a></p>
-<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># 從 browser 導入 html
-from browser import html
-# 從 browser 導入 document 並且對應為 doc
+<p><span>1.左右碰撞的紅色方塊</span><br/><a href="https://gist.githubusercontent.com/xiaomantou0411/c995e1374eaaaf1ca1a69652abe4ff69/raw/4f535743fb8a052a356bc928b8e75e3d2e530ea4/41023225" rel="nofollow">https://gist.githubusercontent.com/xiaomantou0411/c995e1374eaaaf1ca1a69652abe4ff69/raw/4f535743fb8a052a356bc928b8e75e3d2e530ea4/41023225</a><br/><span></span></p>
+<p><span>2.上下碰撞的紅色方塊</span><br/><a href="https://gist.githubusercontent.com/xiaomantou0411/a53c343aa6237cef9deda5075f3b53bb/raw/1a7e7746a905e6b8fe8888c45a79b68204d3d4bf/41023225-2" rel="nofollow">https://gist.githubusercontent.com/xiaomantou0411/a53c343aa6237cef9deda5075f3b53bb/raw/1a7e7746a905e6b8fe8888c45a79b68204d3d4bf/41023225-2</a><br/><span></span></p>
+<p><span>3.英打</span><br/><a href="https://gist.githubusercontent.com/xiaomantou0411/bdeb4ee588810a0e95ac1632d2a66b39/raw/231f2bb4080e945c4c42bdc973664c85910736b5/41023225-%25E8%258B%25B1%25E6%2589%2593" rel="nofollow">https://gist.githubusercontent.com/xiaomantou0411/bdeb4ee588810a0e95ac1632d2a66b39/raw/231f2bb4080e945c4c42bdc973664c85910736b5/41023225-%25E8%258B%25B1%25E6%2589%2593</a><br/><span></span></p>
+<p><span>4.中打</span><br/><a href="https://gist.githubusercontent.com/xiaomantou0411/de4475e9a5b1c1b6d92cb64cc2443ed1/raw/87b72dbe757a0fc53856d53067c0b92b80b158cc/41023225-%25E4%25B8%25AD%25E6%2589%2593" rel="nofollow">https://gist.githubusercontent.com/xiaomantou0411/de4475e9a5b1c1b6d92cb64cc2443ed1/raw/87b72dbe757a0fc53856d53067c0b92b80b158cc/41023225-%25E4%25B8%25AD%25E6%2589%2593</a></p><h2>run</h2>
+<!-- 導入 brython 程式庫 -->
+<script src="/static/brython.js"></script>
+<script src="/static/brython_stdlib.js"></script>
+<!-- 啟動 Brython -->
+<script>
+window.onload=function(){
+brython({debug:1, pythonpath:['/static/','./../downloads/py/']});
+}
+</script>
+<p><!-- 導入 FileSaver 與 filereader --></p>
+<p>
+<script src="/static/ace/FileSaver.min.js" type="text/javascript"></script>
+<script src="/static/ace/filereader.js" type="text/javascript"></script>
+</p>
+<p><!-- 導入 ace --></p>
+<p>
+<script src="/static/ace/ace.js" type="text/javascript"></script>
+<script src="/static/ace/ext-language_tools.js" type="text/javascript"></script>
+<script src="/static/ace/mode-python3.js" type="text/javascript"></script>
+<script src="/static/ace/snippets/python.js" type="text/javascript"></script>
+</p>
+<p><!-- 請注意, 這裡使用 Javascript 將 localStorage["py_src"] 中存在近端瀏覽器的程式碼, 由使用者決定存檔名稱--></p>
+<p>
+<script type="text/javascript">
+function doSave(storage_id, filename){
+    var blob = new Blob([localStorage[storage_id]], {type: "text/plain;charset=utf-8"});
+    filename = document.getElementById(filename).value
+    saveAs(blob, filename+".py");
+}
+</script>
+</p>
+<p><!-- 印出版次與關鍵字程式 --></p>
+<p>
+<script type="text/python3">
 from browser import document as doc
-# 導入 browser.timer
-import browser.timer
+import ace
+# 清除畫布
+def clear_bd(ev):
+    bd = doc["brython_div"]
+    bd.clear()
+# Brython 3.3.4 內建的 container 名稱為  'container' 且 turtle 輸出為 svg 必須使用 div 訂定 id
+Ace = ace.Editor(editor_id="kw_editor", console_id="kw_console", container_id="kw__container", storage_id="kw_py_src" )
+# 從 gist 取出程式碼後, 放入 editor 作為 default 程式
+def run():
+    # 利用 get 取下 src 變數值
+    try:
+        url = doc.query["src"]
+    except:
+        url = "https://gist.githubusercontent.com/mdecourse/e896a4705a95ac8cc4147b355b0e87ef/raw/8954b8280c524c5781dc3c0b3565bc489d3aa3a3/cango_gear1.py"
+    prog = open(url).read()
 
-# 定義一個 game() 函式
-def game():
-    """
-利用 global 關鍵字 將 px, py 與 speed 
-設為可在函式內改變對應內容 
-(意即, 這三個定義在函式外的全域變數,  
-在函式中分別位於等號左邊)
-    """
-    global px, py, speed
-    ctx.clearRect(px, py, width, height)
-    ctx.fillStyle = "red"
-    if px &lt; canvas.width/2:
-        px += speed
-    else:
-        py -= speed
-    
-    if px &lt; 0 or (px + width) &gt; canvas.width:
-        speed = -speed
-    if py &lt; 0 or (py + height) &gt; canvas.height:
-        speed = -speed
-    
-    ctx.fillRect(px, py, width, height)
+    # 將程式載入編輯區
+    Ace.editor.setValue(prog)
+    Ace.editor.scrollToRow(0)
+    Ace.editor.gotoLine(0)
+    # 直接執行程式
+    #ns = {'__name__':'__main__'}
+    #exec(prog, ns)
+    # 按下 run 按鈕
+    Ace.run()
 
-"""
-a variable declared outside of the function or 
-in global scope is known as a global variable. 
-This means that a global variable can be accessed 
-inside or outside of the function.
-"""
-
-canvas = html.CANVAS(width = 600, height = 600)
-canvas.id = "game-board"
-brython_div = doc["brython_div"]
-brython_div &lt;= canvas
-ctx = canvas.getContext("2d")
-px = 0
-py = 50
-width = 20
-height = 20
-speed = 2
-
-browser.timer.set_interval(game, 10)</pre>
-<p>HW1-2.py</p>
-<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">from browser import document as doc
-from browser import timer
-from browser import html
-import math
-
-# 建立 game-board canvas
-
-canvas = html.CANVAS(width = 300, height = 300)
-canvas.id = "game-board"
-brython_div = doc["brython_div"]
-brython_div &lt;= canvas
-ctx = canvas.getContext("2d")
-px = 0
-py = 50
-width = 20
-height = 20
-speed = 2
-
-# 建立 button
-brython_div &lt;= html.BUTTON("啟動", id="power")
- 
-def game():
-    global px, py, speed
-    ctx.clearRect(px, py, width, height)
-    ctx.fillStyle = "red"
-    if px &lt; canvas.width/2:
-        px += speed
-    else:
-        py -= speed
-    
-    if px &lt; 0 or (px + width) &gt; canvas.width:
-        speed = -speed
-    if py &lt; 0 or (py + height) &gt; canvas.height:
-        speed = -speed
-    
-    ctx.fillRect(px, py, width, height)
- 
- 
-# 將 anim 設為 None
-anim = None
- 
-def launchAnimation(ev):
-    global anim
-    # 初始啟動, anim 為 None
-    if anim is None:
-        # 每 0.1 秒執行一次 draw 函式繪圖
-        anim = timer.set_interval(game, 10)
-        # 初始啟動後, 按鈕文字轉為"暫停"
-        doc['power'].text = '暫停'
-    elif anim == 'hold':
-        # 當 anim 為 'hold' 表示曾經暫停後的啟動, 因此持續以 set_interval() 持續旋轉, 且將 power 文字轉為"暫停"
-        anim = timer.set_interval(game, 10)
-        doc['power'].text = '暫停'
-    else:
-        # 初始啟動後, 使用者再按 power, 此時 anim 非 None 也不是 'hold', 因此會執行 clear_interval() 暫停
-        # 且將 anim 變數設為 'hold', 且 power 文字轉為"繼續"
-        timer.clear_interval(anim)
-        anim = 'hold'
-        doc['power'].text = '繼續'
-
- 
-doc["power"].bind("click", launchAnimation)
-</pre>
+# 執行程式, 顯示輸出結果與清除輸出結果及對應按鈕綁定
+doc['kw_run'].bind('click', Ace.run)
+doc['kw_show_console'].bind('click', Ace.show_console)
+doc['kw_clear_console'].bind('click', Ace.clear_console)
+doc['clear_bd'].bind('click', clear_bd)
+# 呼叫函式執行
+run()
+</script>
+</p>
+<p><!-- 用來顯示程式碼的 editor 區域 --></p>
+<div id="kw_editor" style="width: 600px; height: 300px;"></div>
+<p><!-- 以下的表單與按鈕與前面的 Javascript doSave 函式以及 FileSaver.min.js 互相配合 --></p>
+<!-- 存擋表單開始 --><form><label>Filename: <input id="kw_filename" placeholder="input file name" type="text"/>.py</label> <input onclick="doSave('kw_py_src', 'kw_filename');" type="submit" value="Save"/></form><!-- 存擋表單結束 -->
 <p></p>
-<h2>Token</h2>
+<!-- 執行與清除按鈕開始 -->
+<p><button id="kw_run">Run</button> <button id="kw_show_console">Output</button> <button id="kw_clear_console">清除輸出區</button><button id="clear_bd">清除繪圖區</button><button onclick="window.location.reload()">Reload</button></p>
+<!-- 執行與清除按鈕結束 -->
+<p></p>
+<!-- 程式執行 ouput 區 -->
+<div style="width: 100%; height: 100%;"><textarea autocomplete="off" id="kw_console"></textarea></div>
+<!-- Brython 程式執行的結果, 都以 brython_div 作為切入位置 -->
+<div id="brython_div"></div>
+<!-- 導入 gearUtils-0.9.js Cango 齒輪繪圖程式庫 -->
+<script src="https://mde.tw/cp2021/cmsimde/static/Cango-24v03-min.js"></script>
+<script src="https://mde.tw/cp2021/cmsimde/static/gearUtils-09.js"></script>
+<script src="https://mde.tw/cp2021/cmsimde/static/SVGpathUtils-6v03-min.js"></script>
+<script src="https://mde.tw/cp2021/cmsimde/static/sylvester.js"></script>
+<script src="https://mde.tw/cp2021/cmsimde/static/PrairieDraw.js"></script><h2>Token</h2>
 <p>當你建立 Github 帳號後就可以利用 Gist 儲存資料或程式碼, 且可以利用 <a href="https://mde.tw/cp2021/content/run.html">https://mde.tw/cp2021/content/run.html</a> 來執行 Brython 程式.</p>
 <p>在 run.html 執行 Brython 程式, 可以使用下列三種方法:</p>
 <ol>
@@ -1018,15 +945,97 @@ server {
 <p style="padding-left: 30px;"><a href="https://bmsleight.github.io/brython-blocks/">https://bmsleight.github.io/brython-blocks/</a></p>
 <p style="padding-left: 60px;"><a href="https://github.com/mdecourse/brython-blocks">https://github.com/mdecourse/brython-blocks</a></p>
 <p style="padding-left: 60px;"></p>
-<h1 style="padding-left: 60px;">exam</h1>
+<h1>Exam</h1>
+<h2>w13</h2>
+<!-- 導入 brython 程式庫 -->
+<script src="/static/brython.js"></script>
+<script src="/static/brython_stdlib.js"></script>
+<!-- 啟動 Brython -->
+<script>
+window.onload=function(){
+brython({debug:1, pythonpath:['/static/','./../downloads/py/']});
+}
+</script>
+<p><!-- 導入 FileSaver 與 filereader --></p>
+<p>
+<script src="/static/ace/FileSaver.min.js" type="text/javascript"></script>
+<script src="/static/ace/filereader.js" type="text/javascript"></script>
+</p>
+<p><!-- 導入 ace --></p>
+<p>
+<script src="/static/ace/ace.js" type="text/javascript"></script>
+<script src="/static/ace/ext-language_tools.js" type="text/javascript"></script>
+<script src="/static/ace/mode-python3.js" type="text/javascript"></script>
+<script src="/static/ace/snippets/python.js" type="text/javascript"></script>
+</p>
+<p><!-- 請注意, 這裡使用 Javascript 將 localStorage["py_src"] 中存在近端瀏覽器的程式碼, 由使用者決定存檔名稱--></p>
+<p>
+<script type="text/javascript">
+function doSave(storage_id, filename){
+    var blob = new Blob([localStorage[storage_id]], {type: "text/plain;charset=utf-8"});
+    filename = document.getElementById(filename).value
+    saveAs(blob, filename+".py");
+}
+</script>
+</p>
+<p><!-- 印出版次與關鍵字程式 --></p>
+<p>
+<script type="text/python3">
+from browser import document as doc
+import ace
+# 清除畫布
+def clear_bd(ev):
+    bd = doc["brython_div"]
+    bd.clear()
+# Brython 3.3.4 內建的 container 名稱為  'container' 且 turtle 輸出為 svg 必須使用 div 訂定 id
+Ace = ace.Editor(editor_id="kw_editor", console_id="kw_console", container_id="kw__container", storage_id="kw_py_src" )
+# 從 gist 取出程式碼後, 放入 editor 作為 default 程式
+def run():
+    # 利用 get 取下 src 變數值
+    try:
+        url = doc.query["src"]
+    except:
+        url = "https://gist.githubusercontent.com/41023226/aa88b6d2f3b16a3026b132cb6835652e/raw/4183b09d5c8e5bcb5753501ec9dba52b6e3b30a6/W13"
+    prog = open(url).read()
+
+    # 將程式載入編輯區
+    Ace.editor.setValue(prog)
+    Ace.editor.scrollToRow(0)
+    Ace.editor.gotoLine(0)
+    # 直接執行程式
+    #ns = {'__name__':'__main__'}
+    #exec(prog, ns)
+    # 按下 run 按鈕
+    Ace.run()
+
+# 執行程式, 顯示輸出結果與清除輸出結果及對應按鈕綁定
+doc['kw_run'].bind('click', Ace.run)
+doc['kw_show_console'].bind('click', Ace.show_console)
+doc['kw_clear_console'].bind('click', Ace.clear_console)
+doc['clear_bd'].bind('click', clear_bd)
+# 呼叫函式執行
+run()
+</script>
+</p>
+<p><!-- 用來顯示程式碼的 editor 區域 --></p>
+<div id="kw_editor" style="width: 600px; height: 300px;"></div>
+<p><!-- 以下的表單與按鈕與前面的 Javascript doSave 函式以及 FileSaver.min.js 互相配合 --></p>
+<!-- 存擋表單開始 --><form><label>Filename: <input id="kw_filename" placeholder="input file name" type="text"/>.py</label> <input onclick="doSave('kw_py_src', 'kw_filename');" type="submit" value="Save"/></form><!-- 存擋表單結束 -->
 <p></p>
+<!-- 執行與清除按鈕開始 -->
+<p><button id="kw_run">Run</button> <button id="kw_show_console">Output</button> <button id="kw_clear_console">清除輸出區</button><button id="clear_bd">清除繪圖區</button><button onclick="window.location.reload()">Reload</button></p>
+<!-- 執行與清除按鈕結束 -->
+<p></p>
+<!-- 程式執行 ouput 區 -->
+<div style="width: 100%; height: 100%;"><textarea autocomplete="off" id="kw_console"></textarea></div>
+<!-- Brython 程式執行的結果, 都以 brython_div 作為切入位置 -->
+<div id="brython_div"></div>
 <!-- 導入 gearUtils-0.9.js Cango 齒輪繪圖程式庫 -->
 <script src="https://mde.tw/cp2021/cmsimde/static/Cango-24v03-min.js"></script>
 <script src="https://mde.tw/cp2021/cmsimde/static/gearUtils-09.js"></script>
 <script src="https://mde.tw/cp2021/cmsimde/static/SVGpathUtils-6v03-min.js"></script>
 <script src="https://mde.tw/cp2021/cmsimde/static/sylvester.js"></script>
-<script src="https://mde.tw/cp2021/cmsimde/static/PrairieDraw.js"></script>
-<h2>run</h2>
+<script src="https://mde.tw/cp2021/cmsimde/static/PrairieDraw.js"></script><h2>run</h2>
 <!-- 導入 brython 程式庫 -->
 <script src="/static/brython.js"></script>
 <script src="/static/brython_stdlib.js"></script>

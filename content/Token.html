@@ -139,9 +139,21 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">Snake << <a href='Snake.html'>Previous</a> <a href='Network.html'>Next</a> >> Network<br /><h1>SSH</h1>
-<p>putty</p>
-<br />Snake << <a href='Snake.html'>Previous</a> <a href='Network.html'>Next</a> >> Network</div>
+    <div id="tipue_search_content">run-2 << <a href='run-2.html'>Previous</a> <a href='SSH push.html'>Next</a> >> SSH push<br /><h1>Token</h1>
+<p>當你建立 Github 帳號後就可以利用 Gist 儲存資料或程式碼, 且可以利用 <a href="https://mde.tw/cp2021/content/run.html">https://mde.tw/cp2021/content/run.html</a> 來執行 Brython 程式.</p>
+<p>在 run.html 執行 Brython 程式, 可以使用下列三種方法:</p>
+<ol>
+<li>直接連線至 <a href="https://mde.tw/cp2021/content/run.html">https://mde.tw/cp2021/content/run.html</a> 將 Brython 程式寫在編輯區, 然後按下 Run.</li>
+<li>將 Brython 程式存在 Gist, 利用 run.html?src=Gist_URL, run.html 中的 Javascript 就會導入此 Gist 程式執行.</li>
+<li>將 Brython 程式寫在 run.html 頁面中, 然後安排其中的 Javascript 或 Brython 程式導入執行.</li>
+</ol>
+<p>而上述三種程式的執行若更動 run.html 或取 run.html?src=Gist_URL 連結放入頁面, 都必須要在各自的 cp2021_hw倉儲的動態網站中改版, 轉為靜態網頁內容, 然後新增提交並推送至 Github, 建立個人 Github 帳號對應的Personal Token, 就可以放入近端倉儲 .git/config 中的 origin url 帳號密碼區, 然後將改版資料推送到 Github.</p>
+<p>利用 Personal Token 字串 push 改版資料的步驟:</p>
+<ol>
+<li>至 Github 帳號 settings 下的開發者區域建立能夠更動 repo 的權限, 並且決定此 Token 權限的使用期限.</li>
+<li>將此 Token 字串放入對應倉儲 .git/config 檔案中的 origin url=https://Token_String@github.com/帳號/cp2021_hw.git</li>
+</ol>
+<br />run-2 << <a href='run-2.html'>Previous</a> <a href='SSH push.html'>Next</a> >> SSH push</div>
         
     <!-- footer -->
       <div class="container">
